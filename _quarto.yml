@@ -3,6 +3,7 @@ project:
   output-dir: _outputs
 
   resources:
+    - resources/** 
     - LICENSES/*.txt
     - "!_publish/**"
     - "!release/**"
@@ -14,7 +15,7 @@ profile:
     - [html, pdf, epub]
 
 metadata-files:
-  - _book-structure.yml
+  - _generated/iasi-metadata.yml
 
 lang: es
 

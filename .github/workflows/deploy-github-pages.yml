@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "publish/**"
+      - "release/**"
       - ".github/workflows/deploy-github-pages.yml"
   workflow_dispatch:
 
